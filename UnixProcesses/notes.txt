@@ -1,0 +1,28 @@
+"Unix Processes in C" ...also for windows, don't use <unistd.h>
+multiprocess programming can do a lot
+    1  : the fork() function
+    2  : waiting for processes to finish, use wait()
+    3  : visualize the fork() call {understand the memory}
+    4  : process IDs     getpid() getppid()
+    5  : fork multiple times 
+    6  : communicating between processes, pipe()
+    7  : use pipe() and fork() together
+    8  : FIFO as named pipe
+    9  : FIFO to communicate between processes
+    10 : 2 way pipes, 2 way communication between process (child/parent)...use 2 pipes
+    11 : execute another program in your program, exec__() family
+    12 : get exit status
+    13 : redirect stdout
+    14 : program execution vs script execution   { exec__() vs .sh }
+    15 : signals in C
+    16 : control execution of process, SIGCONT and SIGSTOP
+    17 : move process; background <-> foreground
+    18 : handle signals, prevent process from getting sent to background
+    19 : communicate between processes with signals
+    20 : send array through a pipe, child to parent
+    21 : send string through pipe, child to parent
+    22 : simulate the pipe operator "|"
+    23 : working with multiple pipes
+    24 : execute other programs in your program, exec__()
+    25 : waitpid()
+    26 : more with multiple forks

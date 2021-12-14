@@ -1,0 +1,27 @@
+"Unix Threads in C"
+also useful...add "-pthread" with your #include <pthread.h>
+
+    1  : introduction to threads
+    2  : difference between processes and threads
+    3  : race conditions
+    4  : pthread_mutex
+    5  : create threads in a loop
+    6  : get return value from pthread_join()
+    7  : pass arg to thread, dynamic or static possible
+    8  : practical example, sum array with threads
+    9  : pthread_trylock vs pthread_lock  ...trylock not guarunteed
+    10 : conditional variables, pthread_cond_wait
+    11 : conditional variables, pthread_cond_signal + _broadcast
+    12 : practical example pthread_trylock()
+    13 : pthread_exit vs return
+    14 : pthread_barrier     see the .h for macOSX
+    15 : practical example of pthread_barrier   see the .h for macOSX
+    16 : looking into pthread_t     see ex1() for better return value
+    17 : detached thread
+    18 : static initializers for obj's
+    19 : deadlocks
+    20 : recursive mutex
+    21 : semaphore basics    {apple fucks you on this, use the .h}
+    22 : semaphore example, login queue
+
+    99 : an application of the detached thread and timing {best on Linux}
